@@ -20,3 +20,4 @@ git stash pop recuperas el stash anterior
 
 =============================
 mirar luego como vincular git con github
+patata.
