@@ -1,0 +1,25 @@
+Estado y navegación
+
+git status — estado de tu rama actual y working tree
+git switch <rama> — cambiar de rama
+git log — historial de commits; git log main..HEAD — commits que tiene tu rama y no main
+Sincronización con el remoto
+
+git fetch origin — ver qué hay de nuevo en el remoto, sin tocar tus archivos
+git pull — fetch + merge de tu rama con su upstream
+git push --set-upstream origin <rama> — primer push de una rama nueva
+Integrar main en tu rama
+
+git merge main — fusiona (historia con merge commits)
+git rebase main — reescribe tus commits sobre main (solo si no has compartido)
+Deshacer cambios
+
+git revert <SHA> — commit inverso, seguro en trabajo compartido
+git reset — rebobinar commits, solo en trabajo local
+Inspección
+
+git diff main..HEAD — diferencias entre ramas
+Trabajo a medio hacer
+
+git stash / git stash -u — guardar sin commitear
+git stash pop / git stash apply — recuperar
