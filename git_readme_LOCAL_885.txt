@@ -20,4 +20,4 @@ git stash pop recuperas el stash anterior
 
 =============================
 mirar luego como vincular git con github
-mirar luego como vincular git con gitlab
+patata.
